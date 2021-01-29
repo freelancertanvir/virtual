@@ -1,0 +1,247 @@
+body {
+	color:#444;
+	font:normal 16px "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight:300;
+	background-color:#fff;
+	overflow-x:hidden;
+	line-height:1.5;
+}
+a {
+	color:#3498db;
+	cursor:pointer;
+	text-decoration:none;
+		-moz-transition:all .2s;
+	-o-transition:all .2s;
+	-webkit-transition:all .2s;
+	transition:all .2s;
+}
+a:hover,a:focus {
+	color:#3498db;
+	outline:none;
+	text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+	font-family:"Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight:bold;
+	margin-bottom:15px;
+	margin-top:0;
+}
+h1 {
+	font-size:38px;
+}
+h2 {
+	font-size:32px;
+}
+h3 {
+	font-size:24px;
+	display:block;
+}
+h4 {
+	font-size:20px;
+}
+h5 {
+	font-size:18px;
+}
+h6 {
+	font-size:16px;
+}
+p.lead {
+	font-size:24px;
+	font-weight:200;
+}
+p {
+	margin-bottom:20px;
+}
+p:last-child {
+	margin-bottom:0;
+}
+ul,ol {
+	margin-bottom:20px;
+}
+blockquote {
+	padding-top:0;
+	padding-bottom:0;
+	border-color:#1ABC9C;
+}
+blockquote small {
+	color:inherit;
+}
+pre {
+	background-color:rgba(255,255,255,.5);
+	border-color:rgba(0,0,0,.1);
+	margin-bottom:20px;
+}
+.lighter {
+	font-weight:100;
+}
+.fa.fa-check:hover{
+	color: green;
+}
+.fa.fa-close:hover{
+	color: red;
+}
+.fa.fa-eye:hover{
+	border: 1px solid grey;
+	padding: 5px;
+	border-radius: 5px;
+	color: black;
+}
+.fa.fa-download:hover{
+	border: 1px solid grey;
+	padding: 5px;
+	border-radius: 5px;
+	color: black;
+}
+/*	Section	==================================================*/
+.section-title {
+	text-transform:uppercase;
+	font-size:30px;
+	letter-spacing:5px;
+}
+	/* Button & Label	==================================================*/ */
+/* .btn,.label {
+	border-radius:0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	-moz-transition:all .2s;
+	-o-transition:all .2s;
+	-webkit-transition:all .2s;
+	transition:all .2s;
+}
+.btn {
+	font-weight:400;
+	text-transform:uppercase;
+	font-size:13px;
+	letter-spacing:3px;
+}
+.btn:hover,.btn:focus {
+	outline:none;
+}
+
+.btn-primary,.label-primary {
+	background-color:#444;
+	border-color:#444;
+}
+.btn-primary:hover,.btn-primary:focus {
+	background-color:#d33c00;
+	border-color:#d33c00;
+}
+/*	Tab & Collapse Skin	==================================================*/
+.panel {
+	box-shadow:none;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+}
+.panel-default {
+	border-color:#eee;
+}
+.panel-default:last-child {
+	margin-bottom:25px;
+}
+.panel-default>.panel-heading {
+	background:#fff;
+	color:#444;
+}
+.panel-heading {
+	padding:20px 25px;
+}
+.panel-default>.panel-heading a:hover {
+	color:#01b0d1;
+}
+.panel-default>.panel-heading+.panel-collapse .panel-body {
+		border-top:1px solid #eee;
+}
+.panel-group .panel {
+	border-radius: 0;
+}
+/*	Faq==================================================*/ 
+#faq {
+	background-color:#F9FAFD;
+}
+.faq-block {
+	margin:0px;
+}
+.wrapsection {
+    padding-top:50px;
+	padding-bottom:140px;
+    position: relative;
+  }
+
+/*	Responsive	==================================================*/ 
+@media (max-width:767px) {
+	.section, .container {
+					padding-top:30px;
+					padding-bottom:30px;
+	}
+	.maintitle .lead {
+					margin-left:0;
+					margin-right:0;
+	}
+	.container {
+					max-width:690px;
+					padding-left:30px;
+					padding-right:30px;
+	}	
+}
+@media (max-width:767px) {
+	body {
+					font-size:14px;
+	}
+	h1 {
+					font-size:28px;
+	}
+	h2,.carousel-inner blockquote p {
+					font-size:24px;
+	}
+	h3 {
+					font-size:20px;
+	}
+	h4 {
+					font-size:18px;
+	}
+	h5 {
+					font-size:16px;
+	}
+	h6 {
+					font-size:14px;
+	}
+	p.lead {
+					font-size:18px;
+	}
+	.section {
+					padding:60px 0;
+	}
+	.maintitle p.lead {
+					margin-bottom:40px;
+	}
+	.service-box,.img-responsive,.carousel {
+					margin-bottom:30px;
+	}
+	.maintitle .lead {
+					margin-left:0;
+					margin-right:0;
+	}
+	.container {
+					max-width:690px;
+					padding-left:30px;
+					padding-right:30px;
+	}	
+}
+@media (max-width:490px) {
+	.wow {
+					visibility: visible !important;
+					-webkit-animation: none !important;
+					 -moz-animation: none !important;
+					   -o-animation: none !important;
+					  -ms-animation: none !important;
+						  animation: none !important;
+	}
+	.container {
+					max-width:430px;
+					padding-left:30px;
+					padding-right:30px;
+	}
+	.faq-block {
+					margin: 0;
+	}
+}
